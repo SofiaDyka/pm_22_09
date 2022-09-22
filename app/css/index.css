@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.nav{
+    width: 250px;
+    height: 1670px;
+    background-color: rgb(44,43,74);
+    display: flex;
+    flex-direction: column;
+}
+.nndmlsvc{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(44,43,74);
+}
+
+.content{
+    width: 100%;
+    height: 1670px;
+    background-color: rgb(38, 40, 62);
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: rgb(44,43,74);
+    width: 100%;
+    height: 130px;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.content-area{
+    width: 100%;
+}
+.right-component{
+    width: 450px;
+    background-color: rgb(39,38,66);
+}

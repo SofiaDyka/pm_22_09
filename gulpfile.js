@@ -17,7 +17,6 @@ function task_html() {
         .pipe(dest("dist"));
 }
 exports.html = task_html
-
 //об'єднання, компіляція Sass в CSS, додавання префіксів і подальша мінімізація коду
 function task_sass () {
     return src ( "app/sass/*.sass")
