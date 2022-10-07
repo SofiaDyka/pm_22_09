@@ -461,6 +461,7 @@ body {
     cursor: pointer;
     height: 15px;
     width: 15px;
+    margin-left: 2px;
     border-radius: 2px;
 }
 
@@ -490,6 +491,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 4px;
     border-radius: 18px;
     cursor: pointer;
     background: linear-gradient(317.73deg, #5196FC 14.37%, #76AAFA 81.34%);
@@ -538,7 +540,10 @@ body {
 }
 
 .line__charts_wrap {
-    padding: 25px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
 }
 
 .line__chart_block {
@@ -551,11 +556,14 @@ body {
 .line__chart_left {
     display: flex;
     align-items: center;
+    column-gap: 10px;
 }
 
 .line__chart_right {
     display: flex;
+    width: 65%;
     align-items: center;
+    justify-content: flex-end;
     column-gap: 40px;
 
 }
@@ -567,7 +575,7 @@ body {
 }
 
 .line__chart_bd {
-    width: 240px;
+    flex-grow: 1;
     height: 8px;
     background-color: var(--header);
     border-radius: 4px;
@@ -595,9 +603,6 @@ body {
     box-shadow: 0 0 5px 1px #AC24D6;
 }
 
-.zaglushka {
-    width: 38px;
-}
 
 .right__content_block_footer {
     width: 100%;
@@ -617,7 +622,7 @@ body {
 }
 
 .vote__wrap {
-    margin-top: 30px;
+    margin-top: 15px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -640,14 +645,14 @@ body {
 
 .some__content_wrap {
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 75px;
     display: flex;
     justify-content: center;
 }
 
 .some__content_block {
     height: 100px;
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
     background-color: var(--header);
     box-shadow: 0 0 20px 1px #202236;
@@ -764,7 +769,7 @@ body {
 }
 
 .circle__chart {
-    background: url("img/round-chart.svg");
+    background: url("../img/round-chart.svg");
     width: 137px;
     height: 137px;
     display: flex;

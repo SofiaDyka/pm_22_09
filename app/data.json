@@ -1,0 +1,22 @@
+[
+  {
+    "class": "grey_circle",
+    "text": "Work"
+  },
+  {
+    "class": "purple_circle",
+    "text": "Looking for contact"
+  },
+  {
+    "class": "green_circle",
+    "text": "Looking for something"
+  },
+  {
+    "class": "orange_circle",
+    "text": "Search"
+  },
+  {
+    "class": "blue_circle",
+    "text": "Something dark side"
+  }
+]
